@@ -50,10 +50,8 @@ fun main() {
                         depth = result.depth
                     )
                 }
-                println(state)
                 state
             }
-        println(horizontalWithDepth)
         return horizontalWithDepth.horizontalPosition * horizontalWithDepth.depth
     }
 
